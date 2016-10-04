@@ -20,9 +20,9 @@
 
 <div>
  Sort by:
- <a href="<c:url value="/users?sort=firstName"/>">First name</a>
- <a href="<c:url value="/users?sort=lastName"/>">Last name</a>
- <a href="<c:url value="/users?sort=email"/>">Email</a>
+ <a href="<c:url value="/users?sortOrder=firstName"/>">First name</a>
+ <a href="<c:url value="/users?sortOrder=lastName"/>">Last name</a>
+ <a href="<c:url value="/users?sortOrder=email"/>">Email</a>
  <a href="<c:url value="/users"/>">Unsorted</a>
 </div>
 
